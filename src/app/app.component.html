@@ -1,6 +1,20 @@
 <div class="outerDiv">
-  <app-createTask></app-createTask>
-  <br>
-  <br>
-  <app-kanbanboard></app-kanbanboard>
+
+  <mat-tab-group animationDuration="0ms">
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">dashboard</mat-icon>
+        Board
+      </ng-template>
+      <app-kanbanboard></app-kanbanboard>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">add_circle</mat-icon>
+        Create Task
+      </ng-template>
+      <app-createTask></app-createTask>
+    </mat-tab>
+  </mat-tab-group>
+
 </div>

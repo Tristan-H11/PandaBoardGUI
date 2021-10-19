@@ -1,6 +1,10 @@
-.outerDiv{
-  margin-top: 100px;
+.outerDiv {
+  margin-top: 10px;
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
+}
+
+.tab-icon {
+  margin: 5px;
 }
